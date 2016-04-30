@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="17" viewBox="0 0 47 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="navigation_button" class="cls-1" d="M1544,114h47v4h-47v-4Zm0,13h47v4h-47v-4Z" transform="translate(-1544 -114)"/>
+</svg>
