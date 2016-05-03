@@ -1,17 +1,24 @@
 @import 'reset';
 @import 'flexboxgrid';
-html[data-useragent*="Trident"] {
-  
+html {
+    position: relative;
+    min-height: 100%;
 }
 body {
     background: #191e3f;
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-weight: 100;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
 }
 .wrap {
     max-width: 1200px;
+    min-width: 768px;
     margin: 0 auto;
+    display: block;
 }
 .min-h {
     height: 100vh;
@@ -172,11 +179,11 @@ a {
             .team__about {
                 &--right {
                     width: 80%;
-                    right: -170px;
+                    right: 0;
                 }
                 &--left {
                     width: 100%;
-                    left: -1.2rem;
+                    left: 0;
                 }
             }
         }
@@ -199,7 +206,7 @@ a {
         left: 0;
         &--right {
             left: initial;
-            right: -70px;
+            right: 0;
         }
         &--with-text {
             bottom: 3%;
